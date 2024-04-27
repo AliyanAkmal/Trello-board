@@ -1,16 +1,16 @@
 const arry = [
   {
-    id: 1,
+    id: 0,
     title: "cardOne",
     description: "this is a card",
   },
   {
-    id: 2,
+    id: 1,
     title: "cardTwo",
     description: "this is a card",
   },
   {
-    id: 3,
+    id: 2,
     title: "cardThree",
     description: "this is a card",
   },

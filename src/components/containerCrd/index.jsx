@@ -6,8 +6,8 @@ const Container = ({ state, handleData }) => {
       <div
         style={{ border: "2px solid black", width: "400px", margin: "20px" }}
       >
-        {state.map((item, index) => {
-          return <Card key={index} {...item} handleData={handleData} />;
+        {state.map((item) => {
+          return <Card key={item.id} {...item} handleData={handleData} />;
         })}
       </div>
     </>
